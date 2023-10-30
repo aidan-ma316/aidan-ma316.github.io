@@ -1,0 +1,1 @@
+            <h2>Welcome! I'm Aidan, a Software Developer based in Los Angeles who's experienced Object-Oriented Programming and Data Structures.</h2>
