@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6b9c5219.css",
+    "main.js": "/static/js/main.9c728e18.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/conservatory.png": "/static/media/conservatory.6534dfd80214b0b7f1f0.png",
+    "static/media/calendarappphoto.png": "/static/media/calendarappphoto.d8852a445fcc58117b90.png",
+    "static/media/profilepicture.png": "/static/media/profilepicture.157bbe56dfa6273aab8a.png",
+    "static/media/grid-png-43575.png": "/static/media/grid-png-43575.8c5357336896041710a2.png",
+    "static/media/logo.png": "/static/media/logo.c4a8a3504357b43f7e1c.png",
+    "static/media/bxl-github.svg": "/static/media/bxl-github.7f5f78b1168a9147c54884d407208933.svg",
+    "index.html": "/index.html",
+    "static/media/bxl-linkedin-square.svg": "/static/media/bxl-linkedin-square.5c4ac34253a62910b71ace3f8d6fb979.svg",
+    "main.6b9c5219.css.map": "/static/css/main.6b9c5219.css.map",
+    "main.9c728e18.js.map": "/static/js/main.9c728e18.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b9c5219.css",
+    "static/js/main.9c728e18.js"
+  ]
+}
