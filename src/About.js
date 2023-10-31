@@ -6,7 +6,7 @@ import { ReactComponent as LinkedInLogo } from './bxl-linkedin-square.svg';
 
 function About() {
   return (
-    <div className='about'>
+    <div className='about' >
         <div className='about_grid'>
             <div className='about_profile_content'>
                 <div className='about_profile_card'>
@@ -18,7 +18,9 @@ function About() {
                             </a>
                         </div>
                         <div className='about_profile_card_socials_github'>
+                            <a href =' https://github.com/aidan-ma316'  target="_blank">
                             <GitLogo width="5vw" height="5vw"/>
+                            </a>
                         </div>              
                     </div>
                 </div>

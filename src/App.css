@@ -7,13 +7,16 @@
 
 }
 
+a{
+  text-decoration: none;
+}
+
 .light{
   background: rgb(255,255,255);
   background: radial-gradient(circle, rgba(255, 249, 249, 0.1) 0%, rgba(0,0,0,.8) 50%);
-  height: 99vh;
+  height: 100vh;
   width: 99vw;
   position: fixed;
-  outline: auto;
   z-index: 2;
 }
 
@@ -83,6 +86,7 @@ nav button:hover{
   background: rgba(27, 53, 32, 0.603);
   z-index: 100;
 }
+
 h1{
   font-family: 'Roboto', sans-serif;
   font-size: xx-large;
@@ -256,11 +260,22 @@ h1{
   filter: invert(48%) sepia(21%) saturate(561%) hue-rotate(56deg) brightness(97%) contrast(94%);
 }
 
+.about_profile_card_socials_linkedin:hover{
+  filter: invert(98%) sepia(2%) saturate(7%) hue-rotate(39deg) brightness(103%) contrast(101%);
+  transition: filter .5s;
+}
+
+
 .about_profile_card_socials_github{
   width: 5vw;
   height: 5vw;
   font-size: smaller;
   filter: invert(48%) sepia(21%) saturate(561%) hue-rotate(56deg) brightness(97%) contrast(94%);
+}
+
+.about_profile_card_socials_github:hover{
+  filter: invert(98%) sepia(2%) saturate(7%) hue-rotate(39deg) brightness(103%) contrast(101%);
+  transition: filter .5s;
 }
 
 .about_text_content{
@@ -289,9 +304,10 @@ h1{
 }
 
 .projects_home{
-  height: fit-content;
+  height: 35vw;
   width: 99vw;
   z-index: 6;
+
 }
 
 .projects_home h1{
@@ -323,6 +339,7 @@ h1{
   gap: 2%;
   z-index: 6;
 }
+
 
 .project_showcase{
   background-image: url(./calendarappphoto.png);
@@ -405,7 +422,6 @@ h1{
 }
 
 .project_sidebar1:hover{
-  box-shadow: 0 0 .1vw .1vw var(--secondary);
 }
 
 .project_sidebar1:hover .p_img{
@@ -434,15 +450,14 @@ h1{
 .project_sidebar2 .p_img{
   width: 60%;
   height: 100%;
-  background-image: url('conservatory.png');
-  background-size: 200%;
+  background-image: url('hangogo.png');
+  background-size: 76%;
   background-position-y: center;
-  background-position-x: -1vw;
+  background-position-x: center;
   clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
 }
 
 .project_sidebar2:hover{
-  box-shadow: 0 0 .1vw .1vw var(--secondary);
 }
 
 .project_sidebar2:hover .p_img{
@@ -496,3 +511,64 @@ h1{
   align-items: start;
 }
 
+.contact_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 35vw;
+  width: 99vw;
+  z-index: 6;
+  margin-top: 4%;
+}
+
+.contact_container h1{
+  width: fit-content;
+  position: relative;
+  text-align: left;
+  font-size: 4vw;
+  font-weight: 100;
+  letter-spacing: -.1vw;
+  margin-left: 9%;
+  padding-left: 1%;
+  padding-right: 1.5%;
+  margin-top: 0%;
+  padding-top: .5%;
+  color: var(--primary);
+  z-index: 6;
+  background: rgba(73, 71, 71, 0.5);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.3px);
+  -webkit-backdrop-filter: blur(1.3px);
+  border: 1px solid rgba(61, 57, 57, 0.3);
+  border-radius: 1%;
+}
+
+.contact_container h2{
+  margin-left: 9%;
+  margin-top: 2%;
+  color: var(--text);
+  z-index: 6;
+}
+
+.contact_container a{
+  z-index: 6;
+  width: 20%;
+  height: fit-content;
+  margin-left: 9%;
+  margin-top: 2%;
+  background: rgba(43, 66, 51, 0.5);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.3px);
+  -webkit-backdrop-filter: blur(1.3px);
+  border: 1px solid rgba(61, 57, 57, 0.3);
+  text-decoration: none;
+}
+
+.contact_container a:hover{
+  background: rgba(125, 134, 128, 0.5);
+}
+
+
+.contact_container a h2{
+margin-left: 0%;
+}
