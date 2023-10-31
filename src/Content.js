@@ -8,7 +8,6 @@ import ProjectsHome from './ProjectsHome';
 function Content() {
   return (
     <div className='content_container'>
-      <div className='light'></div>
       <About/>
       <ProjectsHome/>
     </div>

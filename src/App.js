@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <Nav/>
+      <div className='light'/>
       <Hero/>
       <Content/>
     </div>
