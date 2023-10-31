@@ -15,7 +15,7 @@ function ProjectsHome() {
               </div>
             </a>
         <div className='projects_home_grid_sidebar'>
-              <div className='project_sidebar1'><div className='project_sidebar_cover'><div className='project_sidebar_text'><h2>THE CONSERVATORY</h2><h3>GAME DEV - C#</h3></div><div className='p_img'/></div></div>
+              <a href='https://drive.google.com/file/d/16wUaghqfARuIHuXodY6F35msV62H2B9Y/view?usp=drive_link' className='project_sidebar1'><div className='project_sidebar_cover'><div className='project_sidebar_text'><h2>THE CONSERVATORY</h2><h3>GAME DEV - C#</h3></div><div className='p_img'/></div></a>
               <div className='project_sidebar2'><div className='project_sidebar_cover'><div className='project_sidebar_text'><h2>HANGOGO</h2><h3>MACHINE LEARNING ETC. - PYTHON<br/>IN PROGRESS</h3></div><div className='p_img'/></div></div>
               <div className='project_sidebar3'><div className='project_sidebar_cover'><div className='project_sidebar_text'><h2>MORE ON THE WAY...</h2><h3></h3></div></div></div>
         </div>
